@@ -9,7 +9,7 @@ This repository contains animated visualizations of popular sorting algorithms c
 ## Current Status of Implemented Algorithms
 
 - ✅ **Bubble Sort**: Completed
-- Insertion Sort - In Progress
+- ✅ **Insertion Sort** - Completed
 - Selection Sort
 - Merge Sort
 - Quick Sort
