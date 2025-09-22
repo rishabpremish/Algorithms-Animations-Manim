@@ -10,7 +10,7 @@ This repository contains animated visualizations of popular sorting algorithms c
 
 - ✅ **Bubble Sort**: Completed
 - ✅ **Insertion Sort** - Completed
-- Selection Sort
+- ✅ **Selection Sort** - Completed
 - Merge Sort
 - Quick Sort
 
