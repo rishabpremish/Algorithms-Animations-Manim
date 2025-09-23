@@ -18,3 +18,12 @@ python -m black filename.py
 # Format all Python files in the directory
 python -m black .
 ```
+
+### Commit Formatting
+
+When you are making a commit please use one of the following tags
+followed by the description
+
+- add:
+- update:
+- fix:
