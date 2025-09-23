@@ -100,7 +100,19 @@ class SelectionSort(Scene):
                 squares[j][0].set_fill(color=BLUE_E, opacity=0.5)
                 self.wait(0.5)
 
+                num1 = int(squares[j][1].text)
+                num2 = int(squares[min_idx][1].text)
+
+                # Initialize the comparison text field
+                comparison_label = Text(
+                    f"Compare {num1} and {num2}", color=WHITE
+                ).scale(0.5)
+                comparison_label.next_to(squares, DOWN, buff=0.8)
+                self.add(comparison_label)
+                self.wait(0.5)
+
                 if int(squares[j][1].text) < int(squares[min_idx][1].text):
+                    self.wait(0.3)
                     # Remove old minimum highlighting
                     squares[min_idx][0].set_fill(color=WHITE, opacity=0)
                     min_idx = j
@@ -111,8 +123,13 @@ class SelectionSort(Scene):
                         ),
                         run_time=0.3,
                     )
+                    self.wait(0.3)
+                    self.remove(comparison_label)
                 else:
+                    self.wait(0.3)
                     squares[j][0].set_fill(color=WHITE, opacity=0)
+                    self.wait(0.3)
+                    self.remove(comparison_label)
 
             if min_idx != i:
                 squares[i][0].set_fill(color=GREEN_E, opacity=0.7)
