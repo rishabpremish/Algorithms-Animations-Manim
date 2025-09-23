@@ -1,6 +1,7 @@
 # Algorithm Animations with Manim
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Manim](https://img.shields.io/badge/Manim-222c3a?style=for-the-badge&logo=manim&logoColor=white) ![Algorithms](https://img.shields.io/badge/Algorithms-FF6B6B?style=for-the-badge&logo=algorithms&logoColor=white)
+![Black](https://img.shields.io/badge/code%20style-black-000000.svg?style=for-the-badge)
 
 ## Description
 
