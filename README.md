@@ -3,6 +3,8 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Manim](https://img.shields.io/badge/Manim-222c3a?style=for-the-badge&logo=manim&logoColor=white) ![Algorithms](https://img.shields.io/badge/Algorithms-FF6B6B?style=for-the-badge&logo=algorithms&logoColor=white)
 ![Black](https://img.shields.io/badge/code%20style-black-000000.svg?style=for-the-badge)
 
+![Visualize Algorithms Banner](https://github.com/rishabpremish/Algorithms-Animations-Manim/blob/master/assets/banner.png?raw=true)
+
 ## Description
 
 This repository contains animated visualizations of popular sorting algorithms created using [Manim](https://www.manim.community/), a mathematical animation engine. These animations are designed to help visualize and understand how different sorting algorithms work step-by-step.
